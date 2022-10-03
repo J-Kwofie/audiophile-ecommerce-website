@@ -1,0 +1,28 @@
+:root {
+
+    --font-family: 'Manrope', sans-serif;
+    --bg:#0E0E0E; 
+    --text-color: #FFFFFF;
+    --nav-size: 64px;
+    --border: 1px solid red;
+
+}
+
+body {
+    margin: 0;
+    font-family: var(--font-family),sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: var(--font-family), sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
